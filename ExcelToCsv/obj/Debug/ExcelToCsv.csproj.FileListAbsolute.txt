@@ -1,0 +1,12 @@
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\bin\Debug\ExcelToCsv.exe.config
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\bin\Debug\ExcelToCsv.exe
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\bin\Debug\ExcelToCsv.pdb
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.Form1.resources
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.Properties.Resources.resources
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.csproj.GenerateResource.Cache
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.exe
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.pdb
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\bin\Debug\EPPlus.dll
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\bin\Debug\EPPlus.xml
+C:\Users\yuval.fe\Desktop\ExcelToCsv\ExcelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.csprojResolveAssemblyReference.cache
