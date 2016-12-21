@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -125,7 +126,22 @@ namespace ExcelToCsv
                     {
                         for (var c = 1; c <= columnCount; c++)
                         {
-                            writer.Write(sheet.Cells[r, c].Value);
+                            object cell;
+                            string cellString;
+                            if (r == 1 || c != 20)
+                            {
+                                cell = sheet.Cells[r, c].Value;
+                                cellString = cell?.ToString() ?? string.Empty;
+                                cellString = cellString.Replace("\"", "\"\"");
+                            }
+                            else
+                            {
+                                var dateNum = long.Parse(sheet.Cells[r, c].Value.ToString());
+                                cellString = DateTime.FromOADate(dateNum).Date.ToString(CultureInfo.InvariantCulture);
+                                var dateEnd = cellString.IndexOf(" ", StringComparison.Ordinal);
+                                cellString = cellString.Substring(0, dateEnd);
+                            }
+                            writer.Write($"\"{cellString}\"");
                             writer.Write(",");
                         }
                         writer.WriteLine();
