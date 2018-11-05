@@ -127,7 +127,7 @@ namespace ExcelToCsv
                         for (var c = 1; c <= columnCount; c++)
                         {
                             object cell;
-                            string cellString;
+                            var cellString = string.Empty;
                             if (r == 1 || c != 20)
                             {
                                 cell = sheet.Cells[r, c].Value;
@@ -136,10 +136,18 @@ namespace ExcelToCsv
                             }
                             else
                             {
-                                var dateNum = long.Parse(sheet.Cells[r, c].Value.ToString());
-                                cellString = DateTime.FromOADate(dateNum).Date.ToString(CultureInfo.InvariantCulture);
-                                var dateEnd = cellString.IndexOf(" ", StringComparison.Ordinal);
-                                cellString = cellString.Substring(0, dateEnd);
+                                try
+                                {
+                                    var dateNum = long.Parse(sheet.Cells[r, c].Value.ToString());
+                                    cellString = DateTime.FromOADate(dateNum).Date.ToString(CultureInfo.InvariantCulture);
+                                    var dateEnd = cellString.IndexOf(" ", StringComparison.Ordinal);
+                                    cellString = cellString.Substring(0, dateEnd);
+                                    cellString = cellString.Replace('\\', '-').Replace('/', '-');
+                                }
+                                catch (Exception)
+                                {
+                                    cellString = sheet.Cells[r, c].Value.ToString().Replace('\\', '-').Replace('/', '-');
+                                }
                             }
                             writer.Write($"\"{cellString}\"");
                             writer.Write(",");

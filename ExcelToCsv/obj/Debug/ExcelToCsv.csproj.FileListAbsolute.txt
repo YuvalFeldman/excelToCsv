@@ -22,3 +22,16 @@ C:\Users\yuval.fe\Desktop\New folder\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.
 C:\Users\yuval.fe\Desktop\New folder\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.Form1.resources
 C:\Users\yuval.fe\Desktop\New folder\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.Properties.Resources.resources
 C:\Users\yuval.fe\Desktop\New folder\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.csproj.GenerateResource.Cache
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\bin\Debug\ExcelToCsv.exe.config
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\bin\Debug\ExcelToCsv.exe
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\bin\Debug\ExcelToCsv.pdb
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\bin\Debug\EPPlus.dll
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\bin\Debug\EPPlus.xml
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.Form1.resources
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.Properties.Resources.resources
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.csproj.GenerateResource.cache
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.csproj.CoreCompileInputs.cache
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.csproj.CopyComplete
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.exe
+C:\Users\i347309\Desktop\yfppws\excelToCsv\ExcelToCsv\obj\Debug\ExcelToCsv.pdb
